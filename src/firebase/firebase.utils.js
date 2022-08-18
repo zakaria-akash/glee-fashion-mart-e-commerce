@@ -50,4 +50,5 @@ provider.setCustomParameters({
 export const signInWithGoogle = () => auth.signInWithPopup(provider);
 
 export default firebase;
+
 //databaseURL: 'https://glee-fashion-mart-db-default-rtdb.firebaseio.com/'
