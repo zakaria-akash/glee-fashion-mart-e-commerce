@@ -17,7 +17,7 @@ const StripeCheckoutButton = ({ price }) => {
       name="Glee Fashion Mart"
       billingAddress
       shippingAddress
-      image="https://svgshare.com/i/CUz.svg"
+      image="https://svgshare.com/i/kFm.svg"
       description={`Your total is $${price}`}
       amount={priceForStripe}
       panelLabel="Pay Now"
@@ -28,3 +28,5 @@ const StripeCheckoutButton = ({ price }) => {
 };
 
 export default StripeCheckoutButton;
+
+//https://svgshare.com/i/CUz.svg

@@ -1,7 +1,11 @@
+$medium: 900px;
+
 .collection-preview {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
+  //
+  // padding-top: 5%;
 
   .title {
     font-size: 28px;
@@ -11,5 +15,24 @@
   .preview {
     display: flex;
     justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: $medium) {
+  .collection-preview {
+    width: 100%;
+    display: block;
+    position: relative;
+    left: 30%;
+    
+  }
+  .title {
+    padding: 10% 0;
+  }
+  .preview {
+    width: 50%;
+    height: 50%;
+    flex-direction: column;
+    margin: 10% 0;
   }
 }

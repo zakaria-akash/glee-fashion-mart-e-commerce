@@ -6,6 +6,7 @@ import { createStructuredSelector } from "reselect";
 import "./App.css";
 
 import Header from "./components/header/header.component";
+import Footer from "./components/footer/footer.component";
 import HomePage from "./pages/homepage/homepage.component";
 import ShopPage from "./pages/shop/shop.component";
 import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component";
@@ -61,6 +62,7 @@ class App extends React.Component {
             }
           />
         </Switch>
+        <Footer/>
       </div>
     );
   }
