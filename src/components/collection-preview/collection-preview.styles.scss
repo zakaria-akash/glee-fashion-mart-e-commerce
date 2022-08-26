@@ -1,4 +1,4 @@
-$medium: 900px;
+$medium: 53.5rem;
 
 .collection-preview {
   display: flex;
@@ -21,18 +21,16 @@ $medium: 900px;
 @media screen and (max-width: $medium) {
   .collection-preview {
     width: 100%;
-    display: block;
-    position: relative;
-    left: 30%;
-    
-  }
-  .title {
-    padding: 10% 0;
-  }
-  .preview {
-    width: 50%;
-    height: 50%;
-    flex-direction: column;
-    margin: 10% 0;
+    // left: 30%;
+    .title {
+      padding: 0 0 2rem;
+      margin: auto;
+    }
+    .preview {
+      width: auto;
+      height: auto;
+      margin: 0 auto;
+      flex-direction: column;
+    }
   }
 }

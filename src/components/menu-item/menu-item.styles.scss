@@ -1,3 +1,4 @@
+$medium: 53.5rem;
 .menu-item {
   min-width: 30%;
   height: 240px;
@@ -63,5 +64,13 @@
       font-weight: lighter;
       font-size: 16px;
     }
+  }
+}
+
+@media screen and (max-width: $medium) {
+  .menu-item {
+    padding: 1.5rem 0;
+    box-sizing: content-box;
+    border: none;
   }
 }

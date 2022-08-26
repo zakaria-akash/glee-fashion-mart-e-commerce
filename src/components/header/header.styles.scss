@@ -1,3 +1,4 @@
+$medium: 53.5rem;
 .header {
   height: 70px;
   width: 100%;
@@ -32,5 +33,11 @@
       cursor: pointer;
       font-weight: bold;
     }
+  }
+}
+
+@media screen and (max-width: $medium) {
+  .header {
+    width: 90vw;
   }
 }

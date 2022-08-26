@@ -1,6 +1,23 @@
+$medium: 53.5rem;
+
 .sign-in-and-sign-up {
-    width: 850px;
-    display: flex;
-    justify-content: space-between;
-    margin: 30px auto;
+  width: 850px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+
+@media screen and (max-width: $medium) {
+  .sign-in-and-sign-up {
+    width: 100%;
+    flex-direction: column;
+    margin: 3rem auto;
+    text-align: center;
+  }
+  &.sign-in {
+    margin: 1.5rem auto;
+  }
+  &.sign-up {
+    margin: 3.5rem auto 1.5rem;
+  }
 }

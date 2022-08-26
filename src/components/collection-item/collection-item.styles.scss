@@ -1,3 +1,4 @@
+$medium: 53.5rem;
 .collection-item {
     width: 22vw;
     display: flex;
@@ -48,6 +49,40 @@
       .price {
         width: 10%;
       }
+    }
+  }
+
+  @media screen and (max-width: $medium) {
+    .collection-item {
+      width: 70vw;
+      height: 70vh;
+      margin: 0 auto;
+
+      .custom-button {
+        width: 60%;
+        opacity: 0.7;
+        position: absolute;
+        top: 70%;
+        left: 20%;
+      }
+
+      .collection-footer {
+        width: 70%;
+        height: 15%;
+        font-size: 16px;
+        margin: 0 auto;
+        padding: 0;
+    
+        .name {
+          width: 60%;
+          margin-bottom: 10px;
+        }
+    
+        .price {
+          width: 15%;
+        }
+      }
+
     }
   }
   

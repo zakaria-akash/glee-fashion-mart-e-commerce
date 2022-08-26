@@ -1,3 +1,4 @@
+$medium: 53.5rem;
 .homepage {
   display: flex;
 
@@ -6,10 +7,25 @@
   flex-direction: column;
   align-items: center;
   padding: 20px 80px;
+  box-shadow: 0.2rem 0.1rem 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
+  border-radius: 0.3rem;
 
   .home-heading {
     font-family: "Darker Grotesque", sans-serif;
-    font-size: 300%;
+    font-size: 2.5rem;
     font-style: italic;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.4);
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: $medium) {
+  .homepage {
+    padding: 1rem 4rem;
+    .home-heading {
+      font-size: 1rem;
+    }
   }
 }
