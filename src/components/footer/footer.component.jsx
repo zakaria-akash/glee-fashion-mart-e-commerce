@@ -3,20 +3,20 @@ import React from "react";
 import "./footer.styles.scss";
 
 const Footer = () => (
-  <div class="main-footer">
+  <div className="main-footer">
     <nav>
-      <ul class="main-footer__links">
-        <li class="main-footer__link">
+      <ul className="main-footer__links">
+        <li className="main-footer__link">
           <span onClick={() => window.open("/", "_self")}>Support</span>
         </li>
-        <li class="main-footer__link">
+        <li className="main-footer__link">
           <span onClick={() => window.open("/", "_self")}>Terms of Use</span>
         </li>
       </ul>
     </nav>
     <nav>
-      <ul class="main-footer__links">
-        <li class="main-footer__link">
+      <ul className="main-footer__links">
+        <li className="main-footer__link">
           <span
             onClick={() =>
               window.open("https://github.com/zakaria-akash", "_blank")
